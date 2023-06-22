@@ -1,0 +1,15 @@
+p{
+    font-family: Roboto,Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body
+{
+    background-image: url('icons/wp3006091-dark-blue-gradient-background.jpg');
+    margin:0;
+    padding-top: 110px;
+    padding-left: 50px;
+    padding-right: 20px;
+    background-color: white;
+}

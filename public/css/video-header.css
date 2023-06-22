@@ -1,0 +1,315 @@
+.header
+{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url('icons/wp3006091-dark-blue-gradient-background.jpg');
+    background-size: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: white;
+    border-bottom-style: solid;
+    z-index: 100;
+    
+    
+}
+.title-heading
+{
+    color: white;
+    font-size: 55px;
+}
+
+
+.left-section
+{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.middle-section
+{
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.right-section
+{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 30px;
+    flex-shrink: 0;
+}
+.settings
+{
+    height: 30px;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+.youtube-logo
+{
+    height: 90px;
+    width: 130px;
+}
+
+.search-button
+{
+    height: 50px;
+
+    background-color:  rgb(232, 230, 230);
+    border-color:rgb(130, 128, 128);
+    border-width: 1px;
+    border-style: solid;
+    margin-left: -1px;
+    padding-left: 20px;
+
+
+
+    
+}
+.search-button--
+{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    color: rgb(218, 218, 218);
+    padding-right: 20px;
+    position:relative;
+    cursor: pointer;
+}
+
+.search-button .tool-tip
+{
+    background-color: rgb(146, 146, 146);
+    color: white;
+    font-size: 12px;
+    padding-top :4px;
+    padding-bottom :4px;
+    padding-left :8px;
+    padding-right :8px;
+    position: absolute;
+    bottom: -25px;
+    right:380px;
+    opacity: 0;
+    border-radius: 2px;
+    pointer-events: none;
+}
+.search-button:hover .tool-tip
+{
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+.voice-search
+{
+    height: 50px;
+    width: 50px;
+    margin-left: 8px;
+    border-color: rgb(130, 128, 128);
+    border-style: solid;
+    border-radius: 25px;
+    border: none;
+    position: relative;
+
+}
+.voice-search .tool-tip
+{
+    position: absolute;
+    font-family: Roboto,Arial;
+    background-color: rgb(146, 146, 146);
+    color: white;
+    font-size: 10px;
+    width: 70px;
+    bottom: -31px;
+    padding-left:4px ;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    left: -5px;
+    font-weight: 550;
+    border-radius: 2px;
+    opacity: 0;
+    pointer-events: none;
+    
+
+}
+.voice-search:hover .tool-tip
+{
+    opacity: 1;
+    transition: opacity 0.5s;
+    
+}
+.voice-search--
+{
+    height: 30px;
+    display: flex;
+    padding-left: 3px;
+    align-items: center;
+    cursor: pointer;
+    
+    
+}
+.search-box
+{
+    height: 46px;
+    flex: 1;
+    padding-left: 10px;
+    font-size: 25px;
+    border-color: rgb(130, 128, 128);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+    box-shadow: 1px 2px 3px rgb(0, 0,0,0.05);
+    width: 0;
+}
+.search-box::placeholder
+{
+    font-family: Roboto,Arial;
+    font-size: 20px;
+}
+
+.upload-button
+{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+    border-color:rgb(255, 255, 255) ;
+    border-style: solid;
+    position: relative;
+    cursor: pointer;
+}
+.upload-button .tool-tip
+{
+    position: absolute;
+    font-family: Roboto,Arial;
+    background-color: rgb(146, 146, 146);
+    color: white;
+    font-size: 10px;
+    width: 70px;
+    bottom: -35px;
+    padding-left:2px ;
+    padding-right: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: -17px;
+    font-weight: 550;
+    border-radius: 2px;
+    opacity: 0;
+    pointer-events: none;
+}
+.upload-button:hover .tool-tip
+{
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+.noti-container
+{
+    position: relative;
+}
+.noti-button
+{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+    border-color:rgb(255, 255, 255) ;
+    border-style: solid;
+    cursor: pointer;
+}
+.noti-button .tool-tip
+{
+    position: absolute;
+    font-family: Roboto,Arial;
+    background-color: rgb(146, 146, 146);
+    color: white;
+    font-size: 10px;
+    width: 70px;
+    bottom: -35px;
+    padding-left:2px ;
+    padding-right: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: -10px;
+    font-weight: 550;
+    border-radius: 2px;
+    opacity: 0;
+    pointer-events: none;
+}
+.noti-button:hover .tool-tip
+{
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+.noti-count
+{
+    position: absolute;
+    top: 7px;
+    right: 4px;
+    background-color: rgb(199, 0, 0);
+    color: white;
+    font-family: Roboto,Arial;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 15px;
+    border-radius: 50px;
+    align-items: center;
+    
+}
+.ytapps-button
+{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+    border-color:rgb(255, 255, 255) ;
+    border-style: solid;    
+    position: relative;
+    cursor: pointer;
+}
+.ytapps-button .tool-tip
+{
+    position: absolute;
+    font-family: Roboto,Arial;
+    background-color: rgb(146, 146, 146);
+    color: white;
+    font-size: 10px;
+    width: 70px;
+    bottom: -35px;
+    padding-left:2px ;
+    padding-right: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: -17px;
+    font-weight: 550;
+    border-radius: 2px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.ytapps-button:hover .tool-tip
+{
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+.main-thumb
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+
+}
+
+.noti-icon
+{
+    height: 20px;
+}

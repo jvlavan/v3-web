@@ -1,0 +1,51 @@
+.side-bar
+{
+    position: fixed;
+    top: 100px;
+    left: 0;
+    width: 50px;
+    bottom: 0;
+    background-image: url('icons/wp3006091-dark-blue-gradient-background.jpg');
+    z-index: 200;
+
+    
+}
+.side-bar-left
+{
+    position: fixed;
+    top: 100px;
+    right: 0;
+    width: 50px;
+    bottom: 0;
+    background-image: url('icons/wp3006091-dark-blue-gradient-background.jpg');
+    background-position: center right;
+    background-repeat: no-repeat;
+    z-index: 200;
+}
+.side-icons
+{
+    height: 30px;
+    padding-top: 15px;
+}
+.font-side-bar
+{
+
+    font-size :11px;
+    font-weight: 550;
+    font-family: Roboto,Arial;
+    z-index: 100;
+    
+}
+.side-bar-container
+{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.side-bar-container:hover
+{
+    background-color: rgb(231, 231, 231);
+}

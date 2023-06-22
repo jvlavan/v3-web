@@ -1,0 +1,80 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+<script type="text/javascript">
+    (function(c,l,a,r,i,t,y){
+        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "eiz3mun5pu");
+</script>
+<div class="container-fluid">
+  <div class="profile-card">
+    <div class="cover" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/584938/bg_22.png)"></div>
+    <div class="body"><img class="profile-picture" src="https://vec-cse.github.io/init-fronend/img/4965791_50426.jpg"/>
+      <h3 class="user-name">{{user.NAME}}({{user.CID}})<br></h3><span class="user-position">Position: {{user.CATEGORY}} @ VEC</span>
+<br>
+      <p class="location">Email: {{user.EMAIL}}</p>
+      <div class="social"></div>
+    </div>
+  </div>
+</div>
+<style>
+body {
+  background-color: #edf2f7;
+  color: #405983;
+  font-family: "Open Sans";
+}
+.container-fluid {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  width: 100%;
+}
+.profile-card {
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 1px 1px 3px -1px rgba(0, 0, 0, 0.9);
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+  width: 320px;
+}
+.cover {
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+.profile-picture {
+  border: 5px solid white;
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px -2px black;
+  margin-bottom: -57px;
+  transform: translateY(-50%);
+  width: 115px;
+}
+.user-position {
+  position: relative;
+  margin: 0 7px;
+  font-weight: 500;
+}
+.location {
+  margin-top: 0;
+}
+.social {
+  font-size: 20px;
+  margin-top: 30px;
+  padding-bottom: 10px;
+}
+.social a {
+  color: #405983;
+  margin: 0 5px;
+}
+.social a:focus,
+.social a:hover,
+.social a:visited {
+  text-decoration: none;
+}
+
+</style>
